@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+
+
+.container{
+
+  padding-top: 100px;
+  padding-left: 30px;
+  place-items: center;
+  margin-top: -100px;
+  
+  font-family: sans-serif;
+  display: grid;
+
+
+}
+
+
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+
+  outline: none;
+  width: 200px;
+ 
+  font-size:16px;
+  padding:16px 30px;
+  
+  border-radius:30px;
+  color: red;
+  background-color:black;
+  cursor: pointer;
+  transition:all 0.5s linear;
+  border-color: black;
+  border-width: 0px;
+}
+
+
+
+.btn1:hover,
+.btn1:focus{
+
+  background: blue;
+  color: white;
+}
+
+.btn1:active{
+
+  
+  background: blue;
+  color: white;
+
+}
+
+.btn2:hover,
+.btn2:focus{
+
+  background:red;
+  color: white;
+}
+
+.btn2:active{
+
+  
+  background: rgb(255, 187, 0);
+  color: white;
+
+}
+
+.btn3:hover,
+.btn3:focus{
+
+  background:rgb(102, 255, 0);
+  color: white;
+}
+
+.btn3:active{
+
+  
+  background: rgb(0, 247, 255);
+  color: white;
+
+}
+
+.btn4:hover,
+.btn4:focus{
+
+  background:rgb(255, 0, 221);
+  color: white;
+}
+
+.btn4:active{
+
+  
+  background: rgb(234, 0, 255);
+  color: white;
+
+}
+
+
+.btn5:hover,
+.btn5:focus{
+
+  background:rgb(248, 232, 4);
+  color: white;
+}
+
+.btn5:active{
+
+  
+  background: rgb(145, 34, 77);
+  color: white;
+
+}
+
+
+.btn6:hover,
+.btn6:focus{
+
+  background:rgb(248, 232, 4);
+  color: white;
+}
+
+.btn6:active{
+
+  
+  background: rgb(145, 34, 77);
+  color: white;
+
+}
+
